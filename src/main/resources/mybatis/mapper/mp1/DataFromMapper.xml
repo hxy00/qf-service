@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.emt.qf.dao.mapper.mp1.DataFromMapper">
+
+    <!--获取支付数据-->
+    <select id="getZFOrgData" resultType="map" useCache="true" >
+        SELECT * FROM v_pos_zfdd WHERE fkrq BETWEEN #{beginDate} AND #{endDate} ORDER BY fkrq DESC
+    </select>
+
+    <!--获取退款数据-->
+    <select id="getTKOrgData" resultType="map" useCache="true" >
+        SELECT * FROM v_pos_tkdd WHERE jzrq BETWEEN #{beginDate} AND #{endDate} ORDER  BY jzrq DESC
+    </select>
+
+</mapper>
