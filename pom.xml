@@ -44,6 +44,7 @@
 		</repository>
 
 	</repositories>
+	<!--仓库配置-->
 
 	<!--spring boot-->
 	<dependencies>
