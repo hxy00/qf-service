@@ -42,8 +42,8 @@
 			<name>Nexus aliyun</name>
 			<url>http://maven.aliyun.com/nexus/content/groups/public</url>
 		</repository>
+
 	</repositories>
-	<!--仓库配置-->
 
 	<!--spring boot-->
 	<dependencies>
