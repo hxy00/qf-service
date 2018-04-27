@@ -46,7 +46,7 @@
 	</repositories>
 	<!--仓库配置-->
 
-	<!--spring boot-->
+	<!--spring boot、依赖配置-->
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
