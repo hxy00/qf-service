@@ -46,7 +46,7 @@
 	</repositories>
 	<!--仓库配置-->
 
-	<!--spring boot、dependencies configuration-->
+	<!--spring boot、dependencies configuration begin-->
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -82,6 +82,7 @@
 		</dependency>
 
 	</dependencies>
+	<!--spring boot、dependencies configuration end-->
 
 	<build>
 		<plugins>
