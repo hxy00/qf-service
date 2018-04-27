@@ -23,7 +23,7 @@
 		<druid.version>1.0.26</druid.version>
 	</properties>
 
-	<!--仓库-->
+	<!--仓库配置-->
 	<repositories>
 		<repository>
 			<id>nexus-repos 02</id>
